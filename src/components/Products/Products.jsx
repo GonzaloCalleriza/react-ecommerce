@@ -3,12 +3,8 @@ import { Grid } from '@mui/material';
 import Product from './Product/Product';
 import useStyles from './styles';
 
-const products = [
-    { id:1, name: 'Shoes', description: 'Running Shoes', price: '$5', image:''},
-    { id: 2, name: 'Computer', description: 'Apple computer', price:'10', image:''}
-]
 
-const Products = () => {
+const Products = ({products}) => {
 
     const classes = useStyles();
 
